@@ -1,4 +1,4 @@
-# Đề bài
+# Đề bài BTVN
 
 Trong một trò chơi online nhiều người chơi, thế giới được biểu diễn trên mặt phẳng 2D với hệ trục tọa độ Oxy. Trò chơi bao gồm nhiều khu vực khác nhau, mỗi khu vực có diện tích rất lớn. Trong mỗi khu vực tồn tại nhiều dungeon, và trong mỗi dungeon sẽ có một con quái đặc biệt gọi là boss.
 
@@ -39,4 +39,5 @@ Hãy xây dựng và mô tả thuật toán cho hàm `getNextPoint(x, y, lastBos
 * Khu vực đặc biệt đôi khi sẽ có dạng hình thù khá đặc biệt, có thể là một đa giác lõm.
 * Liên hệ bạn Hà Thanh Phong (`24520024`) để được chỉnh sửa và chạy thử thực tế, xem cụ thể game.
 * Các nhóm ưu tiên nộp trước **thứ 5 tuần sau** để bạn Phong có thể kịp tổng hợp các nhóm 🥳🥳😳
+
 
