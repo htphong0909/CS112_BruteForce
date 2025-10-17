@@ -40,4 +40,85 @@ Hãy xây dựng và mô tả thuật toán cho hàm `getNextPoint(x, y, lastBos
 * Liên hệ bạn Hà Thanh Phong (`24520024`) để được chỉnh sửa và chạy thử thực tế, xem cụ thể game.
 * Các nhóm ưu tiên nộp trước **thứ 5 tuần sau** để bạn Phong có thể kịp tổng hợp các nhóm 🥳🥳😳
 
+# 📊 Chấm điểm — Tổng hợp & Nhận xét
+
+## ⭐️ Các tiêu chí chính (10 điểm)
+
+| Tiêu chí | Mô tả ngắn | Điểm |
+|---|---|---:|
+| ✅ Ổn định chương trình | Chạy không crash, vào/ra hợp lệ | **2** |
+| 🧭 Tìm nhanh vùng đặc biệt | Chiến lược di chuyển & phát hiện | **4** |
+| 🎯 Duy trì trong vùng đặc biệt | Ổn định ở khu vực mục tiêu | **1** |
+| 🧠 Không bị kẹt | Tránh lặp/vòng lẩn quẩn | **1** |
+| ⏰ Đúng hẹn | Nộp đúng hạn | **2** |
+| **Tổng** |  | **10** |
+
+---
+
+<details>
+<summary><b>✅ 1) Chương trình chạy ổn định (2 điểm)</b></summary>
+
+- Tiêu chí này “chill” cho anh em — **có chương trình chạy được** là có điểm.
+</details>
+
+<details>
+<summary><b>🧭 2) Tìm nhanh vùng đặc biệt (4 điểm)</b></summary>
+
+- Bối cảnh: **các vùng đất bị ngăn bởi biên giới**, vùng đặc biệt **có thể xuất hiện nhiều lần**.
+- Ba cách tiếp cận phổ biến:
+  1. 🔀 **Đi ngẫu nhiên** các hướng → *khá tệ* (dễ quay lại chỗ cũ).
+  2. 🌀 **Đi theo hình xoắn ốc** → *ổn* nhưng **kém** cách 3.
+  3. ➡️ **Chọn ngẫu nhiên một hướng rồi đi thẳng** → *hiệu quả hơn* trong đa số tình huống.
+</details>
+
+<details>
+<summary><b>🎯 3) Duy trì được ở vùng đặc biệt (1 điểm)</b></summary>
+
+- Các chiến lược hay dùng:
+  - 🌀 **Xoay quanh một “tâm”**:
+    - Tâm = **vị trí con 36 gần nhất**.
+    - Hoặc tâm = **trung bình vị trí các con 36**.
+- 🌟 **Nhóm 9 (Hùng & Quân)**: Dùng **thuật toán hướng tâm** (tâm = trung bình các con 36), di chuyển **ngẫu nhiên nhưng thiên về tâm** → giúp bám vùng tốt.
+- ✅ **Chỉ cần có thuật toán xác định tâm** là đạt trọn điểm phần này.
+</details>
+
+<details>
+<summary><b>🧠 4) Không bị kẹt ở một vị trí bất kỳ (1 điểm)</b></summary>
+
+- Yêu cầu: **mỗi bước di chuyển phải đến điểm mới** ⇒ tránh lặp và “kẹt”.
+- 💡 **Nhóm 3 (Thiện & Trường)** dùng **convex hull** để tránh bị “bao vây” bởi các dungeon đã dọn, **tối ưu lối thoát** khỏi vùng kẹt.
+</details>
+
+<details>
+<summary><b>⏰ 5) Đúng hẹn (2 điểm)</b></summary>
+
+- **Nộp đúng hẹn** là trọn điểm nha hihi (❁´◡`❁)
+</details>
+
+---
+
+## 🧾 Tổng kết tiêu chí chính
+
+- Đa phần các nhóm **chưa full điểm** ở phần **tìm khu vực đặc biệt**, **trừ nhóm Việt & Tây (nhóm 4)**.
+
+---
+
+## 🎁 Bonus (2 điểm)
+
+- 🚀 **Nộp sớm + chủ động hỏi & đào sâu**:
+  - **Nhóm 11** và **nhóm 5**: nộp **thứ 2**, có tìm hiểu **sâu** về đề.
+- 🧪 **Thuật toán đặc biệt**:
+  - **Nhóm 3 (Trường & Thiện)**
+  - **Nhóm 9 (Quân & Hùng)**
+  - **Nhóm 17 (Thọ & Huỳnh Tây)**:
+    - Dùng **tỉ lệ số con 36 trong khu vực** để nhận diện “khu vực 36” → **ý tưởng mới mẻ**.
+- 💪 **Nhóm tích cực làm bài**: **Nhóm 4 (Thức & Tân)**
+  - Thức **tryhard** hết mình để săn **10 điểm** (dù chưa đạt (┬┬﹏┬┬)), **thức đến 2h sáng** → **xứng đáng bonus**.
+
+---
+
+> _“Đúng hướng sớm hơn tốt hơn tối ưu muộn.”_ — keep shipping 🚢
+
+   
+
 
