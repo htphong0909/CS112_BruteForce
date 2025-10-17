@@ -40,6 +40,8 @@ Hãy xây dựng và mô tả thuật toán cho hàm `getNextPoint(x, y, lastBos
 * Liên hệ bạn Hà Thanh Phong (`24520024`) để được chỉnh sửa và chạy thử thực tế, xem cụ thể game.
 * Các nhóm ưu tiên nộp trước **thứ 5 tuần sau** để bạn Phong có thể kịp tổng hợp các nhóm 🥳🥳😳
 
+---
+
 # 📊 Chấm điểm — Tổng hợp & Nhận xét
 
 <!-- Hình bảng điểm -->
