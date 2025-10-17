@@ -53,6 +53,10 @@ Hãy xây dựng và mô tả thuật toán cho hàm `getNextPoint(x, y, lastBos
   <sub><i>Hình 1 — Bảng điểm tổng hợp (nhấn vào để xem kích thước đầy đủ)</i></sub>
 </p>
 
+## 📁 Bài nộp
+> 🗂️ **Tất cả source code của các nhóm và file chạy `.exe` đều nằm trong thư mục `BTVN`.**
+> 🪄 **Dùng file `.cmd` dưới quyền admin để chạy**
+
 ## ⭐️ Các tiêu chí chính (10 điểm)
 
 | Tiêu chí | Mô tả ngắn | Điểm |
